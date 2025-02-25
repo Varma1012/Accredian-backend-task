@@ -1,0 +1,6 @@
+PORT=3001
+FRONTEND_URL=http://localhost:3000
+EMAIL_USER='nagiseishiro0700@gmail.com'
+EMAIL_PASS='ctxy ocbe qtvf gaok'
+
+DATABASE_URL="mysql://root:12345@localhost:3306/referral_db"
