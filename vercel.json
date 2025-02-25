@@ -1,14 +1,15 @@
 {
   "version": 2,
-  "functions": {
-    "api/referral.js": {
-      "runtime": "nodejs18.x"
+  "builds": [
+    {
+      "src": "api/server.js",
+      "use": "@vercel/node"
     }
-  },
+  ],
   "routes": [
     {
-      "src": "/api/referral",
-      "dest": "/api/referral.js"
+      "src": "/api/server",
+      "dest": "api/server.js"
     }
   ]
 }
